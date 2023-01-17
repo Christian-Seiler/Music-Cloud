@@ -44,7 +44,7 @@
     "@jscutlery/semver": "^2.29.3",
     "@nestjs/schematics": "~9.0.4",
     "@nestjs/testing": "^9.2.1",
-    "@nrwl/cli": "15.5.0",
+    "@nrwl/cli": "15.5.1",
     "@nrwl/cypress": "15.5.1",
     "@nrwl/eslint-plugin-nx": "15.5.0",
     "@nrwl/jest": "15.5.0",
