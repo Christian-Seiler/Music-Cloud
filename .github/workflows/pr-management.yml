@@ -9,6 +9,7 @@ on:
 
 env:
   PR: ${{ github.event.pr.html_url }}
+  GH_TOKEN: ${{ github.token }}
 
 jobs:
   manage-issue:
