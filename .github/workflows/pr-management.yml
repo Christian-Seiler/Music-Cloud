@@ -16,4 +16,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add Reviewer
-        run: gh pr edit $PR --add-reviewer Christian-Seiler
+        run: gh pr edit $PR --add-reviewer Christian-Seiler --repo Christian-Seiler/Music-Cloud
