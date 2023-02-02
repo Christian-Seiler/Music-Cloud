@@ -12,8 +12,12 @@ env:
   GH_TOKEN: ${{ github.token }}
 
 jobs:
-  manage-issue:
+  manage-issue: 
     runs-on: ubuntu-latest
     steps:
+    
+      - name: Check-out
+        uses: actions/checkout@v3
+        
       - name: Add Reviewer
-        run: gh pr edit $PR --add-reviewer Christian-Seiler --repo Christian-Seiler/Music-Cloud
+        run: gh pr edit $PR --add-reviewer Christian-Seiler 
